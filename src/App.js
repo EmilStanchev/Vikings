@@ -1,9 +1,11 @@
-function App() {
+import Header from "./components/Menu/header";
+
+export default function App() {
   return (
-    <div className="App">
-     <p>Hello</p>
-    </div>
+    <>
+    <main>
+      <p>main</p>
+    </main>
+    </>
   );
 }
-
-export default App;
